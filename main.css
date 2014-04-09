@@ -3,12 +3,15 @@
 	width: 100%;
 	background-color: black;
 	color: white;
+	padding: 20px 0px 0px 370px;
 
 }
 
 .body{
 	margin:0px;
 	padding: 0px;
+	font-family: sans-serif;
+	font-weight: lighter;
 }
 
 .logo {
@@ -31,7 +34,9 @@
 	height: 90px;
 	background-color: white;
 	
-	z-index: 3
+	font-size:30px;
+	padding-left: 280px;
+	padding-top: 7px;
 
 }
 
@@ -41,7 +46,7 @@
 }
 
 	.image-box{
-		margin-top: 130px;
+		margin-top: 135px;
 		height:480px;
 		width:620px;
 		background-color:#d0cdc7;
@@ -55,19 +60,15 @@
 }
 
 .footer {
-	background-color:grey;
+	background-color:#545352;
 	height:349px;
 }
 
 
 .wrapper {
 	padding: 0px;
-	
 	margin-left: 280px;
-	
-
 	position: absolute;
-
 	border-color: red;
 	border-width: 1px;
 	border-style: dashed;
@@ -80,14 +81,58 @@
 	width: 140px;
 	height: 150px;
 	background-color: #b5aea3;
+	color: black;
 	display: inline-block;
 	margin: 20px 10px 20px 10px;
-	vertical-align: 271px;
+	text-shadow: -1px 0px 0px 0px black;
+	text-align: center;
+	font-size: 13px;
 }
 
 .small-box-inner {
+	font-weight: 500;
+	color: white;
 	background-color:#d0cdc7;
-	font-size: 100px;
+	font-size: 70px;
 	text-align: center;
+	padding-bottom: 36px;
+	text-shadow: 0px 2px grey;
+}
+
+.yellow-button {
+	display: inline-block;
+	color: white;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 24px;
+	text-shadow: 1px 1px grey;
+	border-style: groove;
+	border-width: 1px;
+	background: -webkit-linear-gradient(top, #fedd33, #eaa62f);
+	padding: 16px 20px 16px 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.grey-button {
+	display: block;
+	height: 30px;
+	width:135px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+	text-shadow: 1px 1px black;
+	border-style: groove;
+	border-width: 1px;
+	background-color: #636362;
+	
+	padding: 10px 10px 3px 10px;
+	text-align: center;
+
+	border-radius: 5px;
+	border-color: grey;
+	
+
 }
 
