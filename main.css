@@ -1,11 +1,9 @@
 .nav-bar {
-	height: 60px;
-	width: 100%;
-	background-color: black;
+	height:60px;
 	color: white;
-	padding: 20px 0px 0px 370px;
-
+	background: -webkit-linear-gradient(top, #4f4f4f, #151515);
 }
+
 
 .body{
 	margin:0px;
@@ -15,44 +13,96 @@
 }
 
 .logo {
-	height: 60 px;
-	width: 56 px;
-	display: inline-block;
+margin-left: 280px;
+display: inline-block;
 
-	
 }
 
-.logo-place {
-	margin-top: 10px;
-
+.menu-item {
 	display: inline-block;
+	position: relative;
+	bottom: 25px;
+	margin-left: 40px;
+	font-weight: 500;
+}
+.user-icon {
+	display: inline-block;
+	margin-left: 330px;
+}
 
+.user-name {
+	display: inline-block;
+	position: relative;
+	bottom: 25px;
+	
+	font-weight: 500;
+}
 
+.inline{
+	display: inline-block;
 }
 
 .title {
-	height: 90px;
-	background-color: white;
 	
+	height: 85px;
+	background-color: white;
 	font-size:30px;
-	padding-left: 280px;
-	padding-top: 7px;
+
+	box-shadow: 5px 5px 2px black;
+	z-index: 2;
 
 }
 
-.body {
+.title-text {
+	margin-left:280px;
+	line-height: 2.6;
+}
+
+.main {
 	background-color:#f2f0ec;
 	height: 575px;
 }
 
+.holder {
+	margin-left: 280px;
+
+}
+
+.two-thirds {
+	width: 620px;
+	display: inline-block;
+	float:left;
+}
+
 	.image-box{
-		margin-top: 135px;
+		margin-top: 25px;
 		height:480px;
 		width:620px;
 		background-color:#d0cdc7;
 		display: inline-block;
+		font-size: 
 
 			}
+
+			.image-box-text{
+				margin:25px;
+				font-weight: 500;
+				font-style: italic;
+				letter-spacing: .5px;
+			}
+
+		.body-caption{
+			margin-left: 30px;
+			margin-top: 10px;
+			font-size: 13px;
+		}	
+
+		.top-box-holder {
+			margin-top: 5px;
+			margin-left: 10px;
+			display: inline-block;
+			width: 320;
+		}
 
 .body2 {
 	background-color: white;
@@ -65,7 +115,7 @@
 }
 
 
-.wrapper {
+/*.wrapper {
 	padding: 0px;
 	margin-left: 280px;
 	position: absolute;
@@ -73,6 +123,12 @@
 	border-width: 1px;
 	border-style: dashed;
 	color: white;
+}*/
+
+.wrapper {
+	border-width: 1px;
+	border-color: red;
+
 }
 
 .small-box-outter {
@@ -100,6 +156,10 @@
 }
 
 .yellow-button {
+	margin-left: 12px;
+	margin-top: 10px;
+	width:300px;
+	height:60px;
 	display: inline-block;
 	color: white;
 	font-family: sans-serif;
@@ -109,9 +169,24 @@
 	border-style: groove;
 	border-width: 1px;
 	background: -webkit-linear-gradient(top, #fedd33, #eaa62f);
-	padding: 16px 20px 16px 20px;
+	
 	text-align: center;
 	border-radius: 10px;
+}
+
+.button-text{
+	margin:14px;
+
+}
+
+.thing-under-button {
+	margin: -12px 0px 0px 16px;
+	width: 290px;
+	height: 80px;
+	border-radius:10px;
+	border-style:groove;
+	background-color: white;
+
 }
 
 .grey-button {
@@ -132,7 +207,8 @@
 
 	border-radius: 5px;
 	border-color: grey;
-	
 
 }
+
+
 
