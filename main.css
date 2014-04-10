@@ -47,9 +47,9 @@ display: inline-block;
 	height: 85px;
 	background-color: white;
 	font-size:30px;
-
+	letter-spacing: .5px;
 	box-shadow: 5px 5px 2px black;
-	z-index: 2;
+	
 
 }
 
@@ -71,6 +71,13 @@ display: inline-block;
 .two-thirds {
 	width: 620px;
 	display: inline-block;
+	float:left;
+}
+
+.one-third {
+	margin-right:16px;
+	width:310px;
+	display :inline-block;
 	float:left;
 }
 
@@ -106,7 +113,46 @@ display: inline-block;
 
 .body2 {
 	background-color: white;
-	height: 600px;
+	height: 610px;
+}
+
+.body-image-wrapper {
+	margin-left: 280px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	display :inline-block;
+
+}
+
+
+.body_image-holder {
+	
+	margin: 0px;
+	height: 240px;
+	display: inline-block;
+	
+
+	
+}
+
+
+
+
+
+.body-image-caption {
+	margin-top: 5px;
+	font-size: 14px;
+	position: relative;
+	
+
+}
+
+.body-image-clock {
+	display: inline-block;
+	position: relative;
+	bottom: 35px;
+	left: 220px;
+	font-size: 13px;
 }
 
 .footer {
@@ -115,15 +161,7 @@ display: inline-block;
 }
 
 
-/*.wrapper {
-	padding: 0px;
-	margin-left: 280px;
-	position: absolute;
-	border-color: red;
-	border-width: 1px;
-	border-style: dashed;
-	color: white;
-}*/
+
 
 .wrapper {
 	border-width: 1px;
@@ -189,6 +227,30 @@ display: inline-block;
 
 }
 
+.thing-under-button-image {
+	margin: 15px 0px 0px 10px;
+	display: inline-block;
+
+}
+
+
+.thing-under-button-text {
+	position: relative;
+	bottom: 15px;
+	display: inline-block;
+
+}
+
+.thing-under-button-caption{
+	position: relative;
+	top: 24px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 300px;
+	letter-spacing: .5px;
+
+}
+
 .grey-button {
 	display: block;
 	height: 30px;
@@ -210,5 +272,17 @@ display: inline-block;
 
 }
 
+.bar{
+	
+	position: relative;
+	bottom: 10px;
+
+}
+
+ul{
+	list-style-type: none;
+	line-height: 30px;
+	font-size: 13px;
+}
 
 
