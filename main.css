@@ -74,6 +74,7 @@ display: inline-block;
 	float:left;
 }
 
+
 .one-third {
 	margin-right:16px;
 	width:310px;
@@ -253,8 +254,8 @@ display: inline-block;
 
 .grey-button {
 	display: block;
-	height: 30px;
-	width:135px;
+	height: 35px;
+	width:140px;
 	color: white;
 	font-family: sans-serif;
 	font-weight: lighter;
@@ -263,9 +264,11 @@ display: inline-block;
 	border-style: groove;
 	border-width: 1px;
 	background-color: #636362;
+	margin-top: 10px;
 	
-	padding: 10px 10px 3px 10px;
+	
 	text-align: center;
+	line-height: 2.5;
 
 	border-radius: 5px;
 	border-color: grey;
@@ -276,7 +279,26 @@ display: inline-block;
 	
 	position: relative;
 	bottom: 10px;
+	right:15px;
+}
 
+.start {
+	background-color: #d0cdc7;
+	width: 300px;
+	height: 210px;
+	margin-top: 20px;
+	margin-left: 30px;
+	letter-spacing: 1px;
+	
+}
+
+.start-text {
+	line-height: 3;
+	color:white;
+	font-size: 24px;
+	text-align: center;
+	text-shadow: 1px 1px grey;
+	font-weight: 500;
 }
 
 ul{
@@ -284,5 +306,61 @@ ul{
 	line-height: 30px;
 	font-size: 13px;
 }
+
+.button-holder {
+	width:300px;
+	margin-left: 280px;
+	margin-top: 25px;
+	display: inline-block;
+}
+
+.button-header {
+	color:white;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-shadow:1px 1px black;
+}
+.button-line {
+	margin-top: 15px;
+	color:white;
+	font-size: 20px;
+	font-weight: 600;
+	display: inline-block;
+
+}
+
+.connect-holder {
+	margin-top: 25px;
+	color:white;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-shadow:1px 1px black;
+	display: inline-block;
+}
+
+.connect-paragraph {
+	font-size: 12px;
+	font-weight: 300;
+	margin-top: 25px;
+	width: 220px;
+	letter-spacing: 0px;
+	line-height: 15px;
+}
+
+.email-field {
+	width :215px;
+	height : 40px;
+	background-color: white;
+	color:#787878;
+	border-radius: 5px;
+	font-size: 11pt;
+	text-shadow:none;
+	font-weight:200;
+	line-height: 40px;
+}
+
+
 
 
